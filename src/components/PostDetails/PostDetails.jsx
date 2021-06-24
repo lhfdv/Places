@@ -54,7 +54,7 @@ const Post = () => {
       </div>
       {!!recommendedPosts.length && (
         <div className={classes.section}>
-          <Typography gutterBottom variant="h5">You might also like:</Typography>
+          <Typography gutterBottom variant="h5">See also:</Typography>
           <Divider />
           <div className={classes.recommendedPosts}>
             {recommendedPosts.map(({ title, name, message, likes, selectedFile, _id }) => (

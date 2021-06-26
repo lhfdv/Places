@@ -4,6 +4,8 @@ A place to share places you visited and see what other people are sharing
 
 ## Demo :gear:
 
+https://places-front.herokuapp.com/posts
+
 
 ## Tech :computer:
 

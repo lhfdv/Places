@@ -2,7 +2,6 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
   media: {
-    borderRadius: '20px',
     objectFit: 'cover',
     width: '100%',
     maxHeight: '600px',
@@ -17,7 +16,6 @@ export default makeStyles((theme) => ({
     },
   },
   section: {
-    borderRadius: '20px',
     margin: '10px',
     flex: 1,
   },
@@ -34,6 +32,6 @@ export default makeStyles((theme) => ({
     },
   },
   loadingPaper: {
-    display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '20px', borderRadius: '15px', height: '39vh',
+    display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '20px', height: '39vh',
   },
 }));
